@@ -1,0 +1,31 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[packages]
+jupyter = "*"
+matplotlib = "*"
+seaborn = "*"
+protobuf = "*"
+dataloader = "*"
+sentence-transformers = "*"
+torch = "*"
+pandas = "*"
+numpy = "*"
+scikit-learn = "0.24.2"
+pytest = "*"
+pytest-cov = "*"
+pytest-mock = "*"
+nltk = "*"
+wordcloud = "*"
+regex = "*"
+requests = "*"
+requests-oauthlib = "*"
+gensim = ">=4.1.2"
+nlpaug = "*"
+transformers = "*"
+sentencepiece = "*"
+
+[requires]
+python_version = "3.8"
